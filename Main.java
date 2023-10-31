@@ -13,5 +13,11 @@ public class Main {
         } else {
             System.out.println("false");
         }
+
+        OptionalSample optionalSample = new OptionalSample();
+        optionalSample.sample1("hello");
+        optionalSample.sample1(null);
+        System.out.println(optionalSample.sample2("hello"));
+        System.out.println(optionalSample.sample2(null));
     }
 }
