@@ -19,5 +19,8 @@ public class Main {
         optionalSample.sample1(null);
         System.out.println(optionalSample.sample2("hello"));
         System.out.println(optionalSample.sample2(null));
+
+        InterfaceImpSample interfaceImpSample = new InterfaceImpSample();
+        System.out.println(interfaceImpSample.add("one"));
     }
 }
