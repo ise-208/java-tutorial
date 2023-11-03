@@ -22,5 +22,9 @@ public class Main {
 
         InterfaceImpSample interfaceImpSample = new InterfaceImpSample();
         System.out.println(interfaceImpSample.add("one"));
+
+        SortSample sortSample = new SortSample();
+        int[] data = {1, 5, 7, 3, 2, 9};
+        sortSample.bubbleSort(data);
     }
 }
